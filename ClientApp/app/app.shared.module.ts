@@ -29,7 +29,7 @@ import { NewMenuComponent } from './components/newmenu/newmenu.Component';
             { path: 'home', component: HomeComponent },
             { path: 'counter', component: CounterComponent },
             { path: 'fetch-data', component: FetchDataComponent },
-            { path: 'newmenu', component: NewMenuComponent },
+            { path: 'new-menu', component: NewMenuComponent },
             { path: '**', redirectTo: 'home' }
         ])
     ]
